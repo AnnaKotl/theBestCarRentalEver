@@ -11,16 +11,16 @@ Hello, this is Anna Kotlyar, a student at GoIT IT school. I have deployed the "C
 # Pages:
 
 - Home Page:
-Contains a general description of the company's services.
+- Contains a general description of the company's services.
 Styling and formatting are done according to personal preferences.
 
 - Car Catalog:
-Displays a catalog of cars with different configurations.
+- Displays a catalog of cars with different configurations.
 Filtering by brand, hourly rental price, and kilometers traveled.
 Rendering 12 advertisements on the first page, and additional ones on "Load more" click.
 
 - Favorite Ads:
-Viewing advertisements that the user has added to favorites.
+- Viewing advertisements that the user has added to favorites.
 The ability to remove ads from the favorites list.
 Displaying fixed user action results upon page refresh.
 
