@@ -28,7 +28,9 @@ Filtering by brand, hourly rental price, and kilometers traveled.
 Rendering 12 advertisements on the first page, and additional ones on "Load more" click.
 
 
-- Favorite Ads:Viewing advertisements that the user has added to favorites.
+- Favorite Ads:
+
+Viewing advertisements that the user has added to favorites.
 
 The ability to remove ads from the favorites list.
 
