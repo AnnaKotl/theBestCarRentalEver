@@ -14,7 +14,9 @@ Below is a brief description and instructions for working with the application.
 
 # Pages:
 
-- Home Page:Contains a general description of the company's services.
+- Home Page:
+
+Contains a general description of the company's services.
 
 Styling and formatting are done according to personal preferences.
 
