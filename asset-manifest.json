@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/theBestCarRentalEver/static/css/main.7acaea2f.css",
+    "main.js": "/theBestCarRentalEver/static/js/main.6bf9934b.js",
+    "index.html": "/theBestCarRentalEver/index.html",
+    "main.7acaea2f.css.map": "/theBestCarRentalEver/static/css/main.7acaea2f.css.map",
+    "main.6bf9934b.js.map": "/theBestCarRentalEver/static/js/main.6bf9934b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.6bf9934b.js"
+  ]
+}
