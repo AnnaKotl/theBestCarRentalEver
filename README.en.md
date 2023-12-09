@@ -72,15 +72,6 @@ Dropdown with hourly rental prices ($10 increments) - display ads for cars with 
 Group of inputs to determine the mileage range for which the user will search for ads.
 
 
-# Instructions for Use:
-
-Install the necessary dependencies: npm install.
-
-Start the application: npm start.
-
-View the application in the browser at http://localhost:3000.
-
-
 # Criteria for Completion:
 
 Fixed layout in pixels, semantic, and valid.

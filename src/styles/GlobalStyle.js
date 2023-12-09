@@ -28,7 +28,7 @@ html {
 
 body {
   margin: 0;
-  background-color: edeff7;
+  background-color: #edeff7;
   color: #01020a;
   font-family: "Manrope", sans-serif;
   font-size: 12px;

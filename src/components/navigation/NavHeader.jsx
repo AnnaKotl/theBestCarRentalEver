@@ -2,15 +2,16 @@ import React from "react";
 import NavLinks from "./NavLinks";
 
 import NavLogo from "./NavLogo";
-import { NavContainer } from "./NavHeader.styled";
+import { Header, NavContainer } from "./NavHeader.styled";
 
 export default function NavHeader() {
   return (
-    <header>
+    <Header>
       <NavContainer>
         <NavLinks />
         <NavLogo />
       </NavContainer>
-    </header>
+      {/* <hr /> */}
+    </Header>
   );
 }

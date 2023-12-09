@@ -6,7 +6,7 @@ const NavLogo = () => {
   return (
     <>
       <a href="/">
-        <Logo src={carLogo} alt="car-logo" height="100px" />
+        <Logo src={carLogo} alt="car-logo" height="80px" />
       </a>
     </>
   );
