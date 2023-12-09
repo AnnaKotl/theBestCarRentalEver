@@ -2,7 +2,7 @@
 
 Hello, this is Anna Kotlyar, a student at GoIT IT school. 
 
-I have deployed the "Car Rental" project on the GitHub Pages platform, using Create React App.
+I have deployed the "Car Rental" project on the GitHub Pages platform, using Vite.
 
 Below is a brief description and instructions for working with the application.
 
