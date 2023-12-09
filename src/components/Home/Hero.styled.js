@@ -1,8 +1,11 @@
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 import hero from "/images/hero.jpg";
 
 export const Container = styled.div`
+  position: relative;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -29,9 +32,10 @@ export const Title = styled.h1`
   color: #edeff7;
 `;
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled(Link)`
   align-items: center;
   text-align: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 24px;
   color: #edeff7;
@@ -53,3 +57,25 @@ export const ButtonLink = styled.a`
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   }
 `;
+
+export const Autor = styled.a`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  right: 50%;
+  transform: translateX(50%);
+  font-size: 36px;
+  color: #edeff7;
+
+  padding: 10px;
+  margin: 0 auto;
+  transition: color 0.3s ease;
+
+  &:hover,
+  &:focus {
+    color: #e3a02d;
+  }
+`;
+
