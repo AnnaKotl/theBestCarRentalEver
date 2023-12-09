@@ -1,6 +1,11 @@
 import "modern-normalize";
 import { createGlobalStyle } from "styled-components";
 
+/* Accent color #0d1757
+    BGC #edeff7
+    text-color #01020a
+*/
+
 export const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
@@ -23,8 +28,8 @@ html {
 
 body {
   margin: 0;
-  background-color: white;
-  color: rgba(18, 20, 23, 1);
+  background-color: edeff7;
+  color: #01020a;
   font-family: "Manrope", sans-serif;
   font-size: 12px;
   font-weight: 400;
