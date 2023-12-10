@@ -1,5 +1,5 @@
 import React from "react";
-import carLogo from "/images/nav-logo.png";
+import carLogo from "src/images/nav-logo.png";
 import { Logo } from "./NavHeader.styled";
 
 const NavLogo = () => {

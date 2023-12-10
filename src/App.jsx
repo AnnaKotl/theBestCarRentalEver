@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 
-import Layout from "./components/Navigation/Layout";
+import Layout from "./Layout";
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import Favorites from './pages/Favorites';

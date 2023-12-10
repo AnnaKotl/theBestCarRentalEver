@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CustomModal from "react-modal";
 import { MdOutlineClose } from "react-icons/md";
 
-import defaultcar from "/images/defaultcar.jpg";
+import defaultcar from "src/images/defaultcar.jpg";
 import ModalList from "./ModalList";
 import ModalRent from "./ModalRent";
 
@@ -63,7 +63,6 @@ export default function MyModal({ state, forClose, data, city, country }) {
     mileage,
   } = data;
 
-  // Функція для обробки відкриття та закриття модалки
   const handleModalState = (isOpen) => {
     const body = document.body;
     if (isOpen) {
@@ -73,7 +72,6 @@ export default function MyModal({ state, forClose, data, city, country }) {
     }
   };
 
-  // Викликати функцію при зміні стану модалки
   useEffect(() => {
     handleModalState(state);
   }, [state]);
