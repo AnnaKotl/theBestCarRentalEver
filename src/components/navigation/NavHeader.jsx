@@ -1,7 +1,7 @@
 import React from "react";
-import NavLinks from "./NavLinks";
 
 import NavLogo from "./NavLogo";
+import NavLinks from "./NavLinks";
 import { Header, Line, NavContainer } from "./NavHeader.styled";
 
 export default function NavHeader() {
