@@ -3,7 +3,7 @@ import react from "@vitejs/theBestCarRentalEver";
 
 export default defineConfig({
     plugins: [react()],
-    base: "/rent-n-roll-auto",
+    base: "/theBestCarRentalEver",
     resolve: {
         alias: { src: "/src" },
     },
