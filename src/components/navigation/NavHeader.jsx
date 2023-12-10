@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import NavLogo from "./NavLogo";
-import NavLinks from "./NavLinks";
-import { Header, Line, NavContainer } from "./NavHeader.styled";
+import NavLogo from './NavLogo';
+import NavLinks from './NavLinks';
+import { Header, Line, NavContainer } from './NavHeader.styled';
 
-export default function NavHeader() {
+const NavHeader = () => {
   return (
     <Header>
       <NavContainer>
@@ -14,4 +14,6 @@ export default function NavHeader() {
       <Line />
     </Header>
   );
-}
+};
+
+export default NavHeader;
