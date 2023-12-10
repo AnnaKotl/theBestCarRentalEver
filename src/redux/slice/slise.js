@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { initialState } from "./state";
-import { fetchAllCars } from "./api";
+import { fetchAllCars } from "../../services/api";
 
 const handlePending = (state) => {
   state.isLoading = true;
@@ -26,7 +26,10 @@ const carsSlice = createSlice({
       const choisenCar = state.items.find(
         (item) => item.id === action.payload.id
       );
-      if (choisenCar) {
+      if (
+        choisenCar &&
+        !state.favorites.some((fav) => fav.id === choisenCar.id)
+      ) {
         state.favorites.push(choisenCar);
       }
     },

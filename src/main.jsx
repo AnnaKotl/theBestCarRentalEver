@@ -4,16 +4,16 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { persistor, store } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
-import RingLoader from "react-spinners-components";
 
 import App from "./App.jsx";
 import { GlobalStyle } from "./styles/GlobalStyle";
+import Spinner from "./components/Loading/Spinner";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate
-        loading={<RingLoader color="#0d1757" type={"Gear"} size={"200px"} />}
+        loading={<Spinner />}
         persistor={persistor}
       >
         <BrowserRouter basename="/theBestCarRentalEver">

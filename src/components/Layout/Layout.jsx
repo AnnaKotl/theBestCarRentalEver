@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import RingLoader from "react-spinners-components";
-import NavHeader from "../navigation/NavHeader";
+import NavHeader from "../Navigation/NavHeader";
 
 export default function Layout() {
   return (

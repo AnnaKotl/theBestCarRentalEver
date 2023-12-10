@@ -1,10 +1,24 @@
 import "modern-normalize";
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, styled } from "styled-components";
 
-/* Accent color #0d1757
-    BGC #edeff7
+/* Accent color - rgba(227, 160, 45, 0.9)
+
+    prime + color #0d1757 
+    rgba(13, 23, 87, 0.8)
+
+    BGC or NavLink #edeff7 
+    rgba(237, 239, 247, 0.7)
+
     text-color #01020a
+
+    hover - box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 */
+
+export const MainContainer = styled.div`
+  max-width: 1440px;
+  padding: 0 120px;
+  margin: 0 auto;
+`;
 
 export const GlobalStyle = createGlobalStyle`
 * {
