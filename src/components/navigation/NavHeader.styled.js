@@ -14,6 +14,12 @@ export const Header = styled.header`
   background-color: #0d1757;
 `;
 
+export const Line = styled.hr`
+  border: none;
+  height: 2px;
+  background-color: rgba(227, 160, 45, 0.5);
+`;
+
 export const LinkContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -21,23 +27,25 @@ export const LinkContainer = styled.div`
   text-align: center;
   gap: 40px;
   color: #edeff7;
+  
 `;
 
 export const StyledNavLink = styled(NavLink)`
-color: #edeff7
+  color: #edeff7;
   position: relative;
   padding: 10px;
   font-weight: 600;
   font-size: 24px;
   transition: color 0.3s ease, transform 0.3s ease;
 
-  &:hover {
-    color: #e3a02d;
+  &:hover,
+  &:focus {
+    color: #9fa9d4;
     transform: scale(1.05);
   }
 
   &.active {
-    color: #9fa9d4;
+    color: rgba(227, 160, 45, 0.9);
     transform: scale(1.05);
   }
 `;
@@ -45,8 +53,3 @@ color: #edeff7
 export const Logo = styled.img`
   padding: 10px;
 `;
-
-/* Accent color #0d1757
-    BGC #edeff7
-    text-color #01020a
-*/

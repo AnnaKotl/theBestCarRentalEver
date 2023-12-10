@@ -29,7 +29,7 @@ export const Title = styled.h1`
   text-align: center;
   font-weight: 600;
   font-size: 64px;
-  color: #edeff7;
+  color: rgba(237, 239, 247, 0.7);
 `;
 
 export const ButtonLink = styled(Link)`
@@ -38,12 +38,12 @@ export const ButtonLink = styled(Link)`
   justify-content: center;
   font-weight: 500;
   font-size: 24px;
-  color: #edeff7;
+  color: rgba(237, 239, 247, 0.7);
   background-color: transparent;
 
   padding: 14px 30px;
   border: 1px solid #0d1757;
-  border-radius: 8px;
+  border-radius: 18px;
   min-width: 220px;
   margin: 10px auto 0;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
@@ -52,8 +52,8 @@ export const ButtonLink = styled(Link)`
 
   &:hover,
   &:focus {
-    color: #e3a02d;
-    background-color: #0d1757;
+    color: rgba(227, 160, 45, 0.9);
+    background-color: rgba(13, 23, 87, 0.8);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   }
 `;
@@ -67,7 +67,7 @@ export const Autor = styled.a`
   right: 50%;
   transform: translateX(50%);
   font-size: 36px;
-  color: #edeff7;
+  color: rgba(237, 239, 247, 0.7);
 
   padding: 10px;
   margin: 0 auto;
@@ -75,7 +75,7 @@ export const Autor = styled.a`
 
   &:hover,
   &:focus {
-    color: #e3a02d;
+    color: rgba(227, 160, 45, 0.9);
   }
 `;
 
