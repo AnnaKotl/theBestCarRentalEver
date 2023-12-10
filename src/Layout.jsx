@@ -2,7 +2,8 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import RingLoader from 'react-spinners-components';
 
-import NavLogo from './components/Navigation/NavLogo';
+import NavLogo from '/src/components/Navigation/NavLogo';
+
 import NavLinks from './components/Navigation/NavLinks';
 import { Header, Line, NavContainer } from './components/Navigation/NavHeader.styled';
 
