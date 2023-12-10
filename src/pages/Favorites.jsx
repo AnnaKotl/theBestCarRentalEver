@@ -6,7 +6,7 @@ import { selectFavorites, selectFilter } from "../redux/slice/selectors";
 import { setFilter } from "../redux/slice/slise";
 import { filtration } from "../services/filter";
 import { MainContainer } from "../styles/GlobalStyle";
-import { ButtonLink, NoCarsContainer, NoCars } from "../components/Favorites/Favorites.styled";
+import { ButtonLink, NoCarsContainer, NoCars, Section } from "../components/Favorites/Favorites.styled";
 
 export default function Favorites() {
   const dispatch = useDispatch();
@@ -20,6 +20,7 @@ export default function Favorites() {
 
   return (
     <MainContainer>
+      <Section>
       {favorites.length > 0 && (
         <Filter cars={choisen} />
       )}
@@ -51,7 +52,8 @@ export default function Favorites() {
         <div>
           <b>Cars Not Found</b>
         </div>
-      )}
+        )}
+        </Section>
     </MainContainer>
   );
 }

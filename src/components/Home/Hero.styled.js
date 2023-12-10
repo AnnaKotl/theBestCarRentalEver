@@ -35,14 +35,8 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.p`
-margin-top: 100px;
+margin-top: 20px;
 font-weight: 500;
-  font-size: 24px;
-  color: rgba(237, 239, 247, 1);
-`;
-
-export const Text = styled.p`
-  font-weight: 500;
   font-size: 24px;
   color: rgba(237, 239, 247, 1);
 `;
@@ -60,7 +54,7 @@ export const ButtonLink = styled(Link)`
   border: 1px solid #0d1757;
   border-radius: 18px;
   min-width: 220px;
-  margin: 30px auto 0;
+  margin: 60px auto 0;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

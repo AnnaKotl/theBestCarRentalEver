@@ -40,3 +40,7 @@ export const NoCars = styled.b`
   font-size: 32px;
   font-weight: 500;
 `;
+
+export const Section = styled.div`
+  padding-bottom: 20px;
+`;
