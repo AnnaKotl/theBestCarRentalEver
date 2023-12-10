@@ -1,6 +1,7 @@
+import React from "react";
 import { LinkContainer, StyledNavLink } from "./NavHeader.styled";
 
-export default function MyNavLinks() {
+export default function NavLinks() {
   return (
     <nav>
       <LinkContainer>

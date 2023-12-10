@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 import { Link } from "react-router-dom";
-import hero from "/images/hero.jpg";
+import hero from '/images/hero.jpg';
 
 export const Container = styled.div`
   position: relative;

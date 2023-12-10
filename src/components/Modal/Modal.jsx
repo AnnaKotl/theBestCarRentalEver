@@ -63,7 +63,6 @@ export default function MyModal({ state, forClose, data, city, country }) {
     mileage,
   } = data;
 
-  // Функція для обробки відкриття та закриття модалки
   const handleModalState = (isOpen) => {
     const body = document.body;
     if (isOpen) {
@@ -73,7 +72,6 @@ export default function MyModal({ state, forClose, data, city, country }) {
     }
   };
 
-  // Викликати функцію при зміні стану модалки
   useEffect(() => {
     handleModalState(state);
   }, [state]);
