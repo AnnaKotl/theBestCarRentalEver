@@ -6,7 +6,7 @@ import { format, stringShorts } from "../../services/format";
 import { delFromFavorites, addToFavorites } from "../../redux/slice/slise";
 import { selectFavorites } from "../../redux/slice/selectors";
 import MyModal from "../Modal/Modal";
-import defaultcar from "src/images/defaultcar.jpg";
+import defaultcar from "/images/defaultcar.jpg";
 
 import {
   AutoEl,

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CustomModal from "react-modal";
 import { MdOutlineClose } from "react-icons/md";
 
-import defaultcar from "src/images/defaultcar.jpg";
+import defaultcar from "/images/defaultcar.jpg";
 import ModalList from "./ModalList";
 import ModalRent from "./ModalRent";
 
