@@ -17,10 +17,10 @@ export const fetchAllCars = createAsyncThunk(
 
 const carsReducer = createReducer([], (builder) => {
   builder
-    .addCase(fetchAllCars.fulfilled, (state, action) => {
+    .addCase(fetchAllCars.fulfilled, (action) => {
       return action.payload;
     })
-    .addCase(fetchAllCars.rejected, (state, action) => {
+    .addCase(fetchAllCars.rejected, () => {
     });
 });
 
